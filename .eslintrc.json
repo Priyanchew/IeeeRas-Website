@@ -1,0 +1,6 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-sync-scripts": "off" // Disable the sync script rule if needed
+  }
+}
