@@ -1,5 +1,5 @@
-import { cn } from "../lib/utils";
-import AnimatedGridPattern from "../components/magicui/animated-grid-pattern";
+import { cn } from "@/lib/utils";
+import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 
 export function AnimatedGridPatternDemo() {
     return (

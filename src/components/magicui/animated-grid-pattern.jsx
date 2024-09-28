@@ -2,7 +2,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 
 export function GridPattern({
   width = 40,
