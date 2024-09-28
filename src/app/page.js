@@ -1,16 +1,16 @@
 "use client";
 
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import HeroSection from "@/components/heroSection";
+import AboutSection from "@/components/aboutSection";
 import ServicesSection from "@/components/servicesSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import TeamSection from "@/components/TeamSection";
-import FAQSection from "@/components/FAQSection";
+import ProjectsSection from "@/components/projectsSection";
+import TeamSection from "@/components/teamSection";
+import FAQSection from "@/components/faqSection";
 import Testimonies from "@/components/testimony";
-import BottomDock from "@/components/BottomDock";
+import BottomDock from "@/components/bottomDock";
 import FloatDock from "@/components/floatDock";
 import BlurFade from "@/components/magicui/blur-fade";
 import { cn } from "@/lib/utils";
@@ -65,7 +65,7 @@ function generateGradientSpots() {
     // Create a dispersed set of gradient spots
     const spots = Array.from({ length: 20 }, () => {
         const color = colors[Math.floor(Math.random() * colors.length)];
-        const size = Math.random() * 450 + 250; // Random size between 150px and 450px
+        const size = Math.random() * 450 + 150; // Random size between 150px and 450px
         const posX = Math.random() * 100; // Random position percentage for x
         const posY = Math.random() * 100; // Random position percentage for y
         return `radial-gradient(circle at ${posX}% ${posY}%, ${color}, transparent ${size}px)`;

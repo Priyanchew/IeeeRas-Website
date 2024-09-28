@@ -9,7 +9,7 @@ export default function FAQSection() {
                     <AccordionItem value="item-1">
                         <AccordionTrigger>How can I join IEEE RAS?</AccordionTrigger>
                         <AccordionContent>
-                            To join IEEE RAS, attend one of our general meetings or events, and speak with a club officer. You can also sign up through our university's student organization portal.
+                            To join IEEE RAS, attend one of our general meetings or events, and speak with a club officer. You can also sign up through our university student organization portal.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">

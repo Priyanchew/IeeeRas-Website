@@ -14,7 +14,7 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Dock, DockIcon } from "@/components/magicui/dock";
-import { ModeToggle } from "@/components/mode-toggle";
+import { ModeToggle } from "../components/mode-toggle";
 
 const Icons = {
     calendar: (props) => <CalendarIcon {...props} />,

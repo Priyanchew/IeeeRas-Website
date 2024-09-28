@@ -20,7 +20,7 @@ const TeamMember = ({ member, theme }) => (
     <MagicCard
         className="cursor-pointer relative overflow-hidden group transition-all duration-300 ease-in-out transform hover:scale-105"
         gradientColor={theme === "dark" ? "#343434" : "#D9D9D955"}
-        style={{ width: '250px', height: '350px' }} // Set fixed width and height
+        style={{ width: '250px', height: '350px' }}
     >
         <Image
             src={member.image}

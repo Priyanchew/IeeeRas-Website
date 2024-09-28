@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Carousel from "@/components/Carousel";
+import Carousel from "../components/Carousel";
 export default function ProjectsSection() {
     return (
         <section id="projects" className="w-full py-12 md:py-24 lg:py-32">
